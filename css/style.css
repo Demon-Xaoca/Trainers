@@ -213,7 +213,7 @@ h2 {
 }
 .text {
     max-width: 908px;
-    margin: auto;
+    margin: 0 auto 48px;
 }
 footer form input {
     display: inline-block;
@@ -234,4 +234,32 @@ footer form button {
     font-family: 'Metropolis';
     color: #ffffff;
     font-size: 20.33px;
+}
+.lists {
+    background-color: #252525;
+    padding: 50px 0 64px 26px;
+    border: 1px solid #464647;
+}
+.images_footer {
+    width: 247px;
+}
+img[src="images/footer_logo.png"] {
+    display: block;
+    margin-bottom: 44px;
+}
+a {
+    text-decoration: none;
+}
+.icons {
+    width: 43px;
+}
+.images_footer a {
+    margin: 0 11.5px 0;
+    display: inline-block;
+}
+a[ href="https://uk-ua.facebook.com/"] {
+    margin-left: -9.5px;
+}
+a[href="https://www.youtube.com/watch?v=C8pO3Rbepgs"] {
+    margin-right: -11.5px;
 }
