@@ -165,3 +165,26 @@ header {
     width:100%;
     z-index: 1;
 }
+img[src="images/Photo.png"] {
+    width: 100%;
+    margin-bottom: 1288px;
+}
+h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    position: absolute;
+    top: 68px;
+    margin: 178px auto 0;
+    color: #ffffff;
+    font-size: 50.83px;
+    left: 0;
+    right: 0;
+    border-bottom: #e60808 solid 3px;
+    max-width: 1170px;
+    padding-bottom: 34px;
+
+}
+.banner {
+    position: relative;
+
+}
