@@ -242,6 +242,8 @@ footer form button {
 }
 .images_footer {
     width: 247px;
+    margin-right: 123px;
+    display: inline-block;
 }
 img[src="images/footer_logo.png"] {
     display: block;
@@ -255,11 +257,30 @@ a {
 }
 .images_footer a {
     margin: 0 11.5px 0;
-    display: inline-block;
+
 }
 a[ href="https://uk-ua.facebook.com/"] {
     margin-left: -9.5px;
 }
 a[href="https://www.youtube.com/watch?v=C8pO3Rbepgs"] {
     margin-right: -11.5px;
+}
+.lists ul {
+    float: right;
+    font-family: Metropolis;
+    font-size: 13.55px;
+    list-style-type: none;
+    margin: 11px 86px 0 0;
+}
+.lists ul li a {
+    color: #ffffff;
+}
+.lists ul li {
+    margin-bottom: 24px;
+}
+.lists.second_list {
+    margin-right: 57px;
+}
+.lists.third_list {
+    margin-right: 69px;
 }
