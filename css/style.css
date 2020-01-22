@@ -21,6 +21,17 @@
     font-weight: 500;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Metropolis Light';
+    src: url('../fonts/Metropolis-Light.eot');
+    src: url('../fonts/Metropolis-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Metropolis-Light.woff2') format('woff2'),
+    url('../fonts/Metropolis-Light.woff') format('woff'),
+    url('../fonts/Metropolis-Light.ttf') format('truetype'),
+    url('../fonts/Metropolis-Light.svg#Metropolis-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
 
 *{
     margin: 0;
@@ -171,7 +182,7 @@ img[src="images/Photo.png"] {
 }
 h1 {
     text-align: center;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Bebas Neue';
     position: absolute;
     top: 68px;
     margin: 178px auto 0;
@@ -187,4 +198,40 @@ h1 {
 .banner {
     position: relative;
 
+}
+footer {
+    background: #010006;
+    padding: 75px 0 63px;
+}
+h2 {
+    color: #ffffff;
+    font-size: 18.64px;
+    font-family: 'Metropolis Light';
+    text-align: center;
+    line-height: 28px;
+    margin-bottom: 36px;
+}
+.text {
+    max-width: 908px;
+    margin: auto;
+}
+footer form input {
+    display: inline-block;
+    border: none;
+    background-color: #ffffff;
+    padding: 15px 0 15px 26px;
+    font-family: 'Metropolis Light';
+    width: 390px;
+    margin-right: 33px;
+}
+footer form button {
+    display: inline-block;
+    border: none;
+    width: 310px;
+    background-color: #ff0000;
+    padding: 18px 0 18px;
+    text-align: center;
+    font-family: 'Metropolis';
+    color: #ffffff;
+    font-size: 20.33px;
 }
