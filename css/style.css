@@ -78,6 +78,10 @@ header form button{
     background-color: transparent;
     vertical-align: top;
 }
+header form button {
+    color:#fa090a;
+    font-size: 17px;
+}
 header .btn {
     min-width: 169px;
     font-size: 15px;
@@ -101,7 +105,7 @@ header .btn.red {
     background-color: #fa090a;
 }
 header .btn {
-  margin-top: 9px;
+    margin-top: 9px;
     float: right;
 }
 .container:after {
@@ -116,6 +120,7 @@ header .btn {
 }
 header nav ul {
     list-style: none;
+
 }
 header nav ul li {
     float:left;
@@ -123,13 +128,14 @@ header nav ul li {
     margin: 0 9px 0;
     box-sizing: border-box;
     border-bottom: 5px solid transparent;
+
 }
 .fas, .far{
-   margin-right: 14px;
+    margin-right: 14px;
 }
 
 header nav ul li a {
-    font-size: 25.41px;
+    font-size: 25px;
     color: #ffffff;
     font-family: 'Bebas Neue', cursive;
     text-decoration: none;
@@ -140,11 +146,8 @@ nav:after {
     content: "";
     clear: both;
 }
-.container {
+.container.border  {
     margin-bottom: 22px;
-}
-nav {
-    padding-bottom: 26px;
 }
 header nav ul:first-child {
     margin-left: -9px;
@@ -152,8 +155,17 @@ header nav ul:first-child {
 header nav ul:last-child {
     margin-right: -9px;
 }
-header nav ul li:hover a, header nav ul li.active a {
-    border-bottom: #ff0000 5px solid;
+header nav ul li a:after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 0;
+    background-color: #ff0000;
+    transition: 0.5s;
+
+}
+header nav ul li:hover a:after, header nav ul li.active a:after {
+    width: 100%;
 }
 .fab {
     font-size:30px;
@@ -176,27 +188,33 @@ header {
     width:100%;
     z-index: 1;
 }
-img[src="images/Photo.png"] {
+.Photo {
     width: 100%;
     margin-bottom: 1288px;
 }
-h1 {
+.banner h1 {
     text-align: center;
     font-family: 'Bebas Neue';
     position: absolute;
-    top: 68px;
-    margin: 178px auto 0;
+    bottom:21px;
     color: #ffffff;
-    font-size: 50.83px;
-    left: 0;
-    right: 0;
-    border-bottom: #e60808 solid 3px;
-    max-width: 1170px;
+    font-size: 51px;
+    line-height: 50px;
+    width: 100%;
     padding-bottom: 34px;
-
+}
+.banner h1:after {
+    content: "";
+    width: 100%;
+    max-width: 1170px;
+    height: 3px;
+    display: block;
+    background-color: #e60808;
+    margin: 34px auto 0;
 }
 .banner {
     position: relative;
+
 
 }
 footer {
@@ -205,7 +223,7 @@ footer {
 }
 h2 {
     color: #ffffff;
-    font-size: 18.64px;
+    font-size: 19px;
     font-family: 'Metropolis Light';
     text-align: center;
     line-height: 28px;
@@ -233,7 +251,7 @@ footer form button {
     text-align: center;
     font-family: 'Metropolis';
     color: #ffffff;
-    font-size: 20.33px;
+    font-size: 20px;
 }
 .lists {
     background-color: #252525;
@@ -241,34 +259,59 @@ footer form button {
     border: 1px solid #464647;
 }
 .images_footer {
-    width: 247px;
-    margin-right: 123px;
     display: inline-block;
 }
-img[src="images/footer_logo.png"] {
+.Logo2 {
     display: block;
     margin-bottom: 44px;
 }
 a {
     text-decoration: none;
 }
-.icons {
-    width: 43px;
-}
-.images_footer a {
-    margin: 0 11.5px 0;
+.spisok {
 
+    padding-bottom: 26px;
+    margin: auto;
 }
-a[ href="https://uk-ua.facebook.com/"] {
+.soc_icon {
+    margin: 0 8px 0;
+    float: right;
+}
+.facebook:before {
+    content: "\f082";
+    font-family: Font Awesome\ 5 Brands;
+    font-size: 30px;
+    color: #fa090a;
+}
+.instagram:before {
+     content: "\f16d";
+     font-family: Font Awesome\ 5 Brands;
+     font-size: 30px;
+     color: #fa090a;
+}
+.twitter:before {
+    content: "\f081";
+    font-family: Font Awesome\ 5 Brands;
+    font-size: 30px;
+    color: #fa090a;
+}
+.youtube:before {
+    content: "\f431";
+    font-family: Font Awesome\ 5 Brands;
+    font-size: 30px;
+    color: #fa090a;
+}
+.facebook {
     margin-left: -9.5px;
 }
-a[href="https://www.youtube.com/watch?v=C8pO3Rbepgs"] {
-    margin-right: -11.5px;
+.youtube {
+    margin-right: -12px;
 }
+
 .lists ul {
     float: right;
     font-family: Metropolis;
-    font-size: 13.55px;
+    font-size: 14px;
     list-style-type: none;
     margin: 11px 86px 0 0;
 }
@@ -278,9 +321,46 @@ a[href="https://www.youtube.com/watch?v=C8pO3Rbepgs"] {
 .lists ul li {
     margin-bottom: 24px;
 }
-.lists.second_list {
+.lists:nth-child(3) {
     margin-right: 57px;
 }
-.lists.third_list {
+.lists:nth-child(4) {
     margin-right: 69px;
+}
+.banner img {
+    width:100%;
+    display: block;
+}
+.soc_icon1 {
+    margin: 0 12px 0;
+}
+.facebook1:before {
+    content: "\f082";
+    font-family: Font Awesome\ 5 Brands;
+    font-size: 42px;
+    color: #ff0000
+}
+.instagram1:before {
+    content: "\f16d";
+    font-family: Font Awesome\ 5 Brands;
+    font-size: 42px;
+    color: #ff0000;
+}
+.twitter1:before {
+    content: "\f081";
+    font-family: Font Awesome\ 5 Brands;
+    font-size: 42px;
+    color: #ff0000;
+}
+.youtube1:before {
+    content: "\f431";
+    font-family: Font Awesome\ 5 Brands;
+    font-size: 42px;
+    color: #ff0000;
+}
+.images_footer:nth-child(2){
+    margin-left: -12px;
+}
+.images_footer:last-child{
+    margin-right: -12px;
 }
