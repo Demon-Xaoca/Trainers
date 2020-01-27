@@ -80,14 +80,12 @@
     .lists .images_footer {
         padding-left: 0;
         position: absolute;
-
     }
 
     footer .lists ul {
         float:none;
         margin-bottom: 10px;
         display: inline-block;
-        /*width: max-content;*/
         font-size: 25px;
     }
     footer .lists ul:nth-of-type(odd) {
@@ -95,11 +93,9 @@
     }
 
 }
-@media only screen and (max-width: 375px) {
-    footer .lists ul {
-    }
-    .banner h1:after {
-        margin-top: 24px;
+@media only screen and (max-width: 768px) {
+    footer .lists ul:nth-of-type(odd) {
+        margin-left: 50%;
     }
 
 }
