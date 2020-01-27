@@ -77,11 +77,10 @@ header form button{
     border: none;
     background-color: transparent;
     vertical-align: top;
-}
-header form button {
     color:#fa090a;
     font-size: 17px;
 }
+
 header .btn {
     min-width: 169px;
     font-size: 15px;
