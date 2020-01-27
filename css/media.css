@@ -21,13 +21,20 @@
         float: none;
         width: 100%;
     }
+    header nav {
+        width: 100%;
+    }
+
     header nav ul li{
         display: block;
         float: none;
         text-align: center;
     }
+    header nav ul li a {
+        font-size: 40px;
+    }
     h1 {
-        top: 21px;
+        top: 84px;
     }
     .container1 {
         width: 100%;
@@ -39,9 +46,20 @@
         float: none;
         margin: 0 8px 0;
     }
+    .facebook:before, .instagram:before, .twitter:before, .youtube:before {
+        font-size: 60px;
+    }
+    .soc_icon:last-of-type {
+        margin-left: 8px;
+    }
+    .banner h1:after {
+
+    }
     footer .text input {
         padding-left: 0;
         text-align: center;
+        width: 100%;
+        margin-right: -33px;
     }
     footer .text button {
         width: 100%;
@@ -49,71 +67,26 @@
     .lists images_footer {
         padding-left: 0;
         text-align: center;
+
     }
     footer .lists ul {
-        float: none;
+        float:none;
         padding-left: 0;
         text-align: center;
         margin-bottom: 10px;
-        border-bottom: 2px solid red;
+        display: inline-block;
+        width: max-content;
+        margin: auto;
+    }
+    footer .lists ul:first-of-type {
+        margin-top: -170px;
     }
 }
 @media only screen and (max-width: 375px) {
-    header{
-        position: relative;
-        padding: 0 15px;
-        box-sizing: border-box;
-        text-align: center;
-    }
-    .logo{
-        max-width: 130px;
-
-    }
-    .btn{
-        width: 100%;
-        color: transparent;
-        margin-left: 0;
-        height: 50px;
-        overflow: hidden;
-    }
-    header form{
-        float: none;
-        width: 100%;
-    }
-    header nav ul li{
-        display: block;
-        float: none;
-        text-align: center;
-    }
-    h1 {
-        top: 21px;
-    }
-    .container1 {
-        width: 100%;
-    }
-    .spisok li {
-        display: inline-block;
-    }
-    .soc_icon {
-        float: none;
-        margin: 0 8px 0;
-    }
-    footer .text input {
-        padding-left: 0;
-        text-align: center;
-    }
-    footer .text button {
-        width: 100%;
-    }
-    .lists images_footer {
-        padding-left: 0;
-        text-align: center;
-    }
     footer .lists ul {
-        float: none;
-        padding-left: 0;
-        text-align: center;
-        margin-bottom: 10px;
-        border-bottom: 2px solid red;
     }
+    .banner h1:after {
+        margin-top: 24px;
+    }
+
 }
