@@ -40,7 +40,7 @@
     header nav ul li a {
         font-size: 40px;
     }
-    h1 {
+    .banner h1 {
         top: 84px;
     }
     .container1 {
@@ -97,5 +97,18 @@
     footer .lists ul:nth-of-type(odd) {
         margin-left: 50%;
     }
-
+}
+@media only screen and (max-width: 414px) {
+    .banner h1 {
+        top:34px;
+    }
+    .banner h1:after{
+        margin-top: 14px;
+    }
+    footer .lists ul:first-of-type{
+        margin-top: 130px;
+    }
+    * {
+        overflow-x: hidden;
+    }
 }
