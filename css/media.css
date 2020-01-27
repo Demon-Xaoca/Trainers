@@ -98,6 +98,11 @@
     }
 }
 @media only screen and (max-width: 414px) {
+    body {
+        max-width: 414px;
+        overflow-x: hidden;
+
+    }
     .banner h1 {
         top:34px;
     }
@@ -107,12 +112,21 @@
     footer .lists ul:first-of-type{
         margin-top: 130px;
     }
-   html {
-        overflow-x: hidden;
-   }
+
 }
 @media only screen and (max-width: 360px){
     .logo img{
        width:100%;
    }
+    .banner h1:after{
+        margin-top: 7px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .banner h1:after{
+        margin-top: 1px;
+    }
+    footer .text input {
+        font-size: 25px;
+    }
 }
